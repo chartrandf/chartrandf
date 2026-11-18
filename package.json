@@ -1,0 +1,13 @@
+{
+  "name": "github-profile-banner",
+  "version": "1.0.0",
+  "description": "Generates banner.svg for the personal GitHub profile (francischartrand.com)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node gen-banner.mjs"
+  },
+  "dependencies": {
+    "opentype.js": "^2.0.0"
+  }
+}
